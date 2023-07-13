@@ -6,7 +6,9 @@ import {
   Titles_Form,
 } from "../../Styles/Container.style";
 
-export default function Form() {
+import { TextForm, Title } from "../../Styles/Text.style";
+
+export default function Form({ GameHubAPI }) {
   const [isWelcomeVisible, setWelcomeVisible] = useState(false);
 
   return (
@@ -16,7 +18,7 @@ export default function Form() {
       ) : (
         <Form_Container>
           <Titles_Form>
-            <h1>Create an account</h1>
+            <Title>Create an account</Title>
             <TextForm>
               and get access to the latest releases with unique discounts
             </TextForm>
