@@ -14,5 +14,6 @@ export const Form_Container = styled(Container)`
 `;
 
 export const Form_inputs_container = styled(Form_Container)`
+  outline: none;
   height: 15px;
 `;
