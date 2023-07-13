@@ -12,3 +12,8 @@ export const Form_Container = styled(Container)`
   width: 35%;
   margin: 0 auto;
 `;
+
+export const Form_inputs_container = styled(Form_Container)`
+  outline: none;
+  height: 15px;
+`;
