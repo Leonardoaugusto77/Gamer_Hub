@@ -5,4 +5,6 @@ export const Title = styled.h1`
   font-size: 25px;
 `;
 
-export const TextForm = styled.p``;
+export const TextForm = styled.p`
+  font-size: "15px";
+`;
