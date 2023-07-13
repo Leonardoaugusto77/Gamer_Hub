@@ -1,5 +1,5 @@
-import { Form_Container } from "../Styles/Container.style";
-import { Title } from "../Styles/Text.style";
+import { Form_Container } from "../../Styles/Container.style";
+import { Title } from "../../Styles/Text.style";
 
 export default function Form() {
   return (
