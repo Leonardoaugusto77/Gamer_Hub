@@ -1,10 +1,6 @@
 import { useState } from "react";
 import Welcome from "../Welcome";
-import {
-  Container,
-  Form_Container,
-  Titles_Form,
-} from "../../Styles/Container.style";
+import { Wrapper, Form_Container, Titles_Form } from "../../Styles/Wrapper";
 
 import { TextForm, Title } from "../../Styles/Text.style";
 
@@ -12,7 +8,7 @@ export default function Form({ GameHubAPI }) {
   const [isWelcomeVisible, setWelcomeVisible] = useState(false);
 
   return (
-    <Container>
+    <Wrapper>
       {isWelcomeVisible ? (
         <Welcome />
       ) : (
@@ -25,6 +21,6 @@ export default function Form({ GameHubAPI }) {
           </Titles_Form>
         </Form_Container>
       )}
-    </Container>
+    </Wrapper>
   );
 }

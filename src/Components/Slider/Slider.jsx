@@ -1,5 +1,5 @@
-import { Container } from "../../Styles/Container.style";
+import { Wrapper } from "../../Styles/Wrapper";
 
 export default function Slider() {
-  return <Container></Container>;
+  return <Wrapper></Wrapper>;
 }
