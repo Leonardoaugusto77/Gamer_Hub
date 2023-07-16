@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Form from "./Components/Form";
 import Slider from "./Components/Slider";
-import { Container } from "./Styles/Container.style";
+import { Wrapper } from "./Styles/Wrapper";
 
 export default function App() {
   const [isSliderVisible, setSliderVisibla] = useState(true);
@@ -12,10 +12,10 @@ export default function App() {
 
   return (
     <>
-      <Container>
+      <Wrapper>
         <Form toggleSlider={toggleSlider} />
         {isSliderVisible && <Slider GameHubAPI="" />}
-      </Container>
+      </Wrapper>
     </>
   );
 }
