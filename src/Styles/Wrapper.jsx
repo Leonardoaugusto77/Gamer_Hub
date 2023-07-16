@@ -19,7 +19,11 @@ export const Form_inputs_container = styled(Form_Container)`
   height: 15px;
 `;
 
-export const Titles_Form = styled.div`
+export const Titles_Form_container = styled.div`
   width: 475px;
   margin-bottom: 20px;
+`;
+
+export const Form_container_input = styled.div`
+  width: 475px;
 `;
