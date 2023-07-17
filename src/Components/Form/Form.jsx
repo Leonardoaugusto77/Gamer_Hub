@@ -20,7 +20,7 @@ export default function Form({ GameHubAPI }) {
         <Form_Container>
           <Titles_Form_container>
             <Title>Create an account</Title>
-            <TextForm>
+            <TextForm Size={18}>
               and get access to the latest releases with unique discounts
             </TextForm>
           </Titles_Form_container>
@@ -29,8 +29,11 @@ export default function Form({ GameHubAPI }) {
             <Input type="text" placeholder="Email"></Input>
             <Input type="password" placeholder="Password"></Input>
           </Form_container_input>
-          <Button>Teste</Button>
-          <Button>Teste</Button>
+          <Button>Create account</Button>
+          <Button>Sign up with Google</Button>
+          <TextForm Size={16}>
+            Already have an account? <strong>Log in</strong>
+          </TextForm>
         </Form_Container>
       )}
     </Wrapper>

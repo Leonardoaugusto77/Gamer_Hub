@@ -4,8 +4,9 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   height: 100vh;
-  background-color: ${({ theme }) => theme.colors.primary};
+  /* background-color: ${({ theme }) => theme.colors.primary}; */
 `;
 
 export const Form_Container = styled(Wrapper)`
@@ -25,5 +26,18 @@ export const Titles_Form_container = styled.div`
 `;
 
 export const Form_container_input = styled.div`
-  width: 475px;
+  margin-bottom: 15px;
+`;
+
+export const Slider_Section = styled(Wrapper)`
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 500px;
+    height: 500px;
+    filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.25));
+    background-color: aliceblue;
+  }
 `;

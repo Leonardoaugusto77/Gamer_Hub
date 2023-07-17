@@ -1,4 +1,5 @@
 import { useState } from "react";
+import GamesApi from "./GamesApi.json";
 import Form from "./Components/Form";
 import Slider from "./Components/Slider";
 import { Wrapper } from "./Styles/Wrapper";
@@ -14,7 +15,7 @@ export default function App() {
     <>
       <Wrapper>
         <Form toggleSlider={toggleSlider} />
-        {isSliderVisible && <Slider GameHubAPI="" />}
+        {isSliderVisible && <Slider GamesApi={GamesApi} />}
       </Wrapper>
     </>
   );
