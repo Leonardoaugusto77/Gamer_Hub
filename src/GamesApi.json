@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Resident evil 4 Ramake",
+    "year": "23 de Março de 2023",
+    "src": "./Imgs/resident_evil_04_remake.png"
+  },
+  {
+    "name": "Red Dead Redemption 2",
+    "year": "26 de outubro de 2018",
+    "src": "./Imgs/red_dead.png"
+  },
+  {
+    "name": "God of War Ragnarok",
+    "year": "9 de novembro de 20223",
+    "src": "./Imgs/god_of_war_ragnarok.jpg"
+  },
+  {
+    "name": "Dead Space",
+    "year": "27 de janeiro de 2023",
+    "src": "./Imgs/dead.jpg"
+  },
+  {
+    "name": "Star Wars Jedi Survivor",
+    "year": "28 de abril de 2023",
+    "src": "./Imgs/star-wars-jedi-survivor-1.png"
+  }
+]

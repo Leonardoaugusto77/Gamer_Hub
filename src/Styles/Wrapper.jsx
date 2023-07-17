@@ -4,8 +4,9 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   height: 100vh;
-  background-color: ${({ theme }) => theme.colors.primary};
+  /* background-color: ${({ theme }) => theme.colors.primary}; */
 `;
 
 export const Form_Container = styled(Wrapper)`
@@ -25,7 +26,7 @@ export const Titles_Form_container = styled.div`
 `;
 
 export const Form_container_input = styled.div`
-  width: 475px;
+  margin-bottom: 15px;
 `;
 
 export const Slider_Section = styled(Wrapper)`
