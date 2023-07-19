@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { GoogleIcon } from "../../Styles/Button.style";
 import Welcome from "../Welcome";
 import { Input } from "../../Styles/Inputs.style";
 import { Form_container_input } from "../../Styles/Wrapper";
@@ -11,6 +12,17 @@ import {
 import { Button } from "../../Styles/Button.style";
 export default function Form({ GameHubAPI }) {
   const [isWelcomeVisible, setWelcomeVisible] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleButtonClick = () => {
+    if (name === "" || email === "" || password === "") {
+      return window.alert(
+        "Os campos foram preenchidos incorretamente, verifique e tente novamente!!!"
+      );
+    }
+  };
 
   return (
     <Wrapper>
@@ -20,7 +32,7 @@ export default function Form({ GameHubAPI }) {
         <Form_Container>
           <Titles_Form_container>
             <Title>Create an account</Title>
-            <TextForm Size={18}>
+            <TextForm Size="18px" align="left" width="80vh">
               and get access to the latest releases with unique discounts
             </TextForm>
           </Titles_Form_container>
@@ -29,9 +41,12 @@ export default function Form({ GameHubAPI }) {
             <Input type="text" placeholder="Email"></Input>
             <Input type="password" placeholder="Password"></Input>
           </Form_container_input>
-          <Button>Create account</Button>
-          <Button>Sign up with Google</Button>
-          <TextForm Size={16}>
+          <Button onClick={() => handleButtonClick}>Create account</Button>
+          <Button>
+            <GoogleIcon />
+            Sign up with Google
+          </Button>
+          <TextForm Size="18px" align="left" width="50vh">
             Already have an account? <strong>Log in</strong>
           </TextForm>
         </Form_Container>

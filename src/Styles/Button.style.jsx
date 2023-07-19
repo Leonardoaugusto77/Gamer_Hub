@@ -1,10 +1,12 @@
 import styled from "styled-components";
+import { FcGoogle } from "react-icons/fc";
 
 export const Button = styled.button`
   display: flex;
   width: 100%;
-
+  gap: 8px;
   height: 45px;
+  font-size: 15px;
   justify-content: center;
   align-items: center;
   border: none;
@@ -21,4 +23,13 @@ export const Button = styled.button`
     font-weight: bold;
     background-color: #00d9ff;
   }
+
+  @media (max-width: 1024px) {
+    width: 70vh;
+  }
+`;
+
+export const GoogleIcon = styled(FcGoogle)`
+  width: 20px;
+  height: 20px;
 `;

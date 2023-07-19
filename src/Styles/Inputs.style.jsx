@@ -9,4 +9,8 @@ export const Input = styled.input`
   outline: none;
   margin-bottom: 20px;
   font-family: Poppins;
+
+  @media (max-width: 1024px) {
+    width: 80vh;
+  }
 `;

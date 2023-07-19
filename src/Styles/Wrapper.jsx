@@ -22,7 +22,11 @@ export const Form_inputs_container = styled(Form_Container)`
 
 export const Titles_Form_container = styled.div`
   width: 475px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+
+  @media (max-width: 1024px) {
+    width: 80vh;
+  }
 `;
 
 export const Form_container_input = styled.div`
@@ -37,7 +41,14 @@ export const Slider_Section = styled(Wrapper)`
   img {
     width: 500px;
     height: 500px;
+    margin-right: 135px;
     filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.25));
     background-color: aliceblue;
+
+    @media (max-width: 1024px) {
+      width: 400px;
+      height: 400px;
+      margin-right: 70px;
+    }
   }
 `;
