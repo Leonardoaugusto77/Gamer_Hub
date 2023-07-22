@@ -11,6 +11,6 @@ export const Input = styled.input`
   font-family: Poppins;
 
   @media (max-width: 1024px) {
-    width: 80vh;
+    width: 70vh;
   }
 `;
