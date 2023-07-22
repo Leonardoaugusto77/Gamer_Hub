@@ -55,13 +55,15 @@ export default function Form({ toggleSlider }) {
   };
 
   return (
-    <Wrapper>
+    <Wrapper flex="column">
       {isWelcomeVisible ? (
         <Welcome handleBackButton={handleBackButton} />
       ) : (
         <Form_Container>
           <Titles_Form_container>
-            <Title size="35px">Create an account</Title>
+            <Title size="35px" width="80vh">
+              Create an account
+            </Title>
             <Text size="18px" align="left" width="80vh">
               and get access to the latest releases with unique discounts
             </Text>
@@ -84,11 +86,11 @@ export default function Form({ toggleSlider }) {
             ></Input>
           </Form_container_input>
           <Button onClick={handleButtonClick}>Create account</Button>
-          <Button>
+          <Button sizeB="15px">
             <GoogleIcon />
             Sign up with Google
           </Button>
-          <Text style={StyleLog} size="18px" align="left" width="300px">
+          <Text style={StyleLog} size="18px" align="left" width="80vh">
             Already have an account? <strong>Log in</strong>
           </Text>
         </Form_Container>

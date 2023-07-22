@@ -17,6 +17,9 @@ export default function Welcome({ handleBackButton }) {
         style={{
           marginBottom: "5px",
         }}
+        size="35px"
+        align="center"
+        width="80%"
       >
         This project is a training exercise focused on UX and React.js. The main
         objective of the project is to create a login screen.

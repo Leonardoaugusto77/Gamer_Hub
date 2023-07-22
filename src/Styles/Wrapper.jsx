@@ -26,6 +26,22 @@ export const Titles_Form_container = styled.div`
   @media (max-width: 1024px) {
     width: 70vh;
   }
+
+  @media (max-width: 768px) {
+    width: 100vh;
+  }
+
+  @media (max-width: 425px) {
+    width: 55vh;
+  }
+
+  @media (max-width: 375px) {
+    width: 50vh;
+  }
+
+  @media (max-width: 320px) {
+    width: 40vh;
+  }
 `;
 
 export const Form_container_input = styled.div`
@@ -33,6 +49,7 @@ export const Form_container_input = styled.div`
 `;
 
 export const Slider_Section = styled(Wrapper)`
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: end;
@@ -50,6 +67,10 @@ export const Slider_Section = styled(Wrapper)`
       margin-right: 25px;
       margin-left: 25px;
     }
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 `;
 
@@ -58,9 +79,16 @@ export const Arrows_container = styled(Wrapper)`
   width: 75vh;
   top: 115px;
 
+  @media (max-width: 1440px) {
+    width: 65vh;
+  }
+
   @media (max-width: 1024px) {
     width: 35vh;
     top: 65px;
+  }
+  @media (max-width: 768px) {
+    display: none;
   }
 `;
 
@@ -77,8 +105,8 @@ export const Info_Game_Slider = styled.div`
 
 export const Title_Game = styled.div`
   position: absolute;
-  width: 60%;
-  right: 205px;
+  width: 55%;
+  right: 230px;
   bottom: -110px;
   color: #ffffff;
   font-size: 20px;
@@ -86,13 +114,20 @@ export const Title_Game = styled.div`
   font-weight: bold;
   line-height: normal;
 
+  @media (min-width: 1440px) {
+    right: 195px;
+  }
+
   @media (max-width: 1010px) {
     right: 100px;
     bottom: -40px;
   }
 
   @media (max-width: 1024px) {
-    right: 90px;
+    right: 125px;
     bottom: -65px;
+  }
+  @media (max-width: 768px) {
+    display: none;
   }
 `;

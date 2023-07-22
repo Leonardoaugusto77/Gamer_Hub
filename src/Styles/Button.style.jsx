@@ -29,6 +29,24 @@ export const Button = styled.button`
   @media (max-width: 1024px) {
     width: 70vh;
   }
+
+  @media (max-width: 768px) {
+    font-size: 25px;
+    width: 100vh;
+    text-align: center;
+  }
+
+  @media (max-width: 425px) {
+    width: 55vh;
+  }
+
+  @media (max-width: 375px) {
+    width: 50vh;
+  }
+  @media (max-width: 320px) {
+    width: 40vh;
+    font-size: 15px;
+  }
 `;
 
 export const GoogleIcon = styled(FcGoogle)`

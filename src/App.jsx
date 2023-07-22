@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <>
-      <Wrapper>
+      <Wrapper display="flex">
         <Form toggleSlider={toggleSlider} />
         {isSliderVisible && <Slider GamesApi={GamesApi} />}
       </Wrapper>

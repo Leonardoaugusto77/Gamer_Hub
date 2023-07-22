@@ -24,13 +24,20 @@ export default function Slider({ GamesApi }) {
   };
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
-      const nextIndex = (currentImageIndex + 1) % GamesApi.length;
-      setCurrentImageIndex(nextIndex);
-    }, 5000);
+    const isMobile = window.innerWidth <= 768;
+
+    let intervalId;
+    if (!isMobile) {
+      intervalId = setInterval(() => {
+        const nextIndex = (currentImageIndex + 1) % GamesApi.length;
+        setCurrentImageIndex(nextIndex);
+      }, 5000);
+    }
 
     return () => {
-      clearInterval(intervalId);
+      if (intervalId) {
+        clearInterval(intervalId);
+      }
     };
   }, [currentImageIndex, GamesApi]);
 
