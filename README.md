@@ -1,4 +1,4 @@
-# Tela de Login (Gamer Theme Minimalist) with Styled Components
+# Login Screen (Gamer Theme Minimalist) with Styled Components
 
 Este projeto é uma refatoração da tela de login utilizando a biblioteca Styled Components. A proposta é comparar a implementação utilizando CSS puro com a abordagem de styled components, buscando entender as diferenças e vantagens de cada abordagem.
 
