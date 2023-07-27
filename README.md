@@ -10,7 +10,8 @@ A motivação por trás desse projeto foi explorar e experimentar as capacidades
 
 - Styled Components: A biblioteca de estilização permite escrever CSS dentro dos componentes React, tornando o código mais legível e manutenível.
 - Props: Utilizei as props do Styled Components para ajustar estilos de forma dinâmica, permitindo maior personalização da tela de login.
-
+- Também utilizei o UseEffect para trabalhar com o Slider
+  
 ## Resultados
 
 A refatoração utilizando Styled Components proporcionou uma tela de login mais organizada e ajustável. A separação de estilos por componente tornou o código mais modular e fácil de entender. Além disso, a utilização de props permitiu criar diferentes temas e estilos para a tela de login sem precisar duplicar código.
