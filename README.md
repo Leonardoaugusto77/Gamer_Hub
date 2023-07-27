@@ -1,5 +1,8 @@
 # Login Screen (Gamer Theme Minimalist) with Styled Components
 
+![Tela de login](public/Imgs/Capa.png)
+
+
 Este projeto é uma refatoração da tela de login utilizando a biblioteca Styled Components. A proposta é comparar a implementação utilizando CSS puro com a abordagem de styled components, buscando entender as diferenças e vantagens de cada abordagem.
 
 ## Motivação
@@ -10,7 +13,7 @@ A motivação por trás desse projeto foi explorar e experimentar as capacidades
 
 - Styled Components: A biblioteca de estilização permite escrever CSS dentro dos componentes React, tornando o código mais legível e manutenível.
 - Props: Utilizei as props do Styled Components para ajustar estilos de forma dinâmica, permitindo maior personalização da tela de login.
-- Também utilizei o UseEffect para trabalhar com o Slider
+- useEffect: No que diz respeito à renderização das imagens, empreguei o hook useEffect para controlar o comportamento do slider. Além disso, adicionei uma lógica para pausar o slider caso a tela não possua espaço suficiente para exibi-lo adequadamente.
   
 ## Resultados
 
@@ -29,5 +32,3 @@ Para executar o projeto localmente, siga os seguintes passos:
 ## Conclusão
 
 A utilização do Styled Components provou ser uma opção eficiente para estilizar componentes React, proporcionando maior organização e facilidade de manutenção do código CSS. Com a possibilidade de utilizar props, é possível criar estilos mais dinâmicos e personalizados, tornando a experiência do usuário mais agradável. Com esse projeto, pude aprender e explorar as capacidades dessa biblioteca e pretendo utilizá-la em projetos futuros.
-
-![Tela de login](public/Imgs/Capa.png)
