@@ -1,8 +1,9 @@
 import { useState } from "react";
+
 import GamesApi from "./GamesApi.json";
-import Form from "./Components/Form";
 import Slider from "./Components/Slider";
 import { Wrapper } from "./Styles/Wrapper";
+import Form from "./Components/Form/Form";
 
 export default function App() {
   const [isSliderVisible, setSliderVisibla] = useState(true);
