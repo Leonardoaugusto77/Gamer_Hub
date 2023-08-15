@@ -2,7 +2,6 @@ import { ArrowL, ArrowR } from "../../Styles/Button.style";
 import {
   Arrows_container,
   Slider_Section,
-  Wrapper,
   Info_Game_Slider,
   Title_Game,
 } from "../../Styles/Wrapper";

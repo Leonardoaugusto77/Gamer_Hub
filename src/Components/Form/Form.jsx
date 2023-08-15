@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { GoogleIcon } from "../../Styles/Button.style";
-import Welcome from "../Welcome";
 import { Input } from "../../Styles/Inputs.style";
 import { Form_container_input } from "../../Styles/Wrapper";
 import { Text, Title } from "../../Styles/Text.style";
@@ -10,6 +9,8 @@ import {
   Titles_Form_container,
 } from "../../Styles/Wrapper";
 import { Button } from "../../Styles/Button.style";
+import Welcome from "../Welcome/Welcome";
+
 export default function Form({ toggleSlider }) {
   const [isWelcomeVisible, setWelcomeVisible] = useState(false);
   const [name, setName] = useState("");
