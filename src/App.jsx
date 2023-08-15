@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import GamesApi from "./GamesApi.json";
-import Slider from "./Components/Slider";
+import Slider from "./Components/Slider/Slider";
 import { Wrapper } from "./Styles/Wrapper";
 import Form from "./Components/Form/Form";
 
