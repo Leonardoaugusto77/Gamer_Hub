@@ -2,23 +2,26 @@ import styled from "styled-components";
 
 export const Title = styled.h1`
   font-family: Poppins;
-  font-size: ${(props) => props.size};
+  font-size: 40px;
 
   @media (max-width: 1024px) {
     text-align: ${(props) => props.align};
-    font-size: 30px;
+    font-size: ${(props) => props.size};
+    margin-bottom: 5px;
   }
 
   @media (max-width: 768px) {
     font-size: 55px;
     width: 100%;
     text-align: center;
+    margin-bottom: 5px;
   }
 
   @media (max-width: 425px) {
-    font-size: 40px;
-    width: 50vh;
+    font-size: 35px;
+    width: 55vh;
     text-align: center;
+    margin-bottom: 5px;
   }
 
   @media (max-width: 375px) {
@@ -28,7 +31,7 @@ export const Title = styled.h1`
 
   @media (max-width: 320px) {
     width: 40vh;
-    font-size: 34px;
+    font-size: 25px;
   }
 `;
 
@@ -44,7 +47,7 @@ export const Text = styled.p`
   }
 
   @media (max-width: 768px) {
-    font-size: 25px;
+    font-size: 20px;
     width: 100vh;
     text-align: center;
   }
@@ -63,8 +66,7 @@ export const Text = styled.p`
 
   @media (max-width: 320px) {
     width: 40vh;
-    width: 40vh;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 700;
   }
 `;

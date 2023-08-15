@@ -85,7 +85,7 @@ export const Arrows_container = styled(Wrapper)`
 
   @media (max-width: 1024px) {
     width: 35vh;
-    top: 65px;
+    top: 35px;
   }
   @media (max-width: 768px) {
     display: none;

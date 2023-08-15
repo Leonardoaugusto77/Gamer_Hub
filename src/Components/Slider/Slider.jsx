@@ -50,8 +50,8 @@ export default function Slider({ GamesApi }) {
 
       <Info_Game_Slider>
         <Title_Game>
-          <Title size="35px">{GamesApi[currentImageIndex].name}</Title>
-          <Text size="20px">{GamesApi[currentImageIndex].year}</Text>
+          <Title size="25px">{GamesApi[currentImageIndex].name}</Title>
+          <Text size="15px">{GamesApi[currentImageIndex].year}</Text>
         </Title_Game>
 
         <Arrows_container>

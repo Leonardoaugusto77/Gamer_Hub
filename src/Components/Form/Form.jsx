@@ -61,7 +61,7 @@ export default function Form({ toggleSlider }) {
       ) : (
         <Form_Container>
           <Titles_Form_container>
-            <Title size="35px" width="80vh">
+            <Title size="40px" width="80vh">
               Create an account
             </Title>
             <Text size="18px" align="left" width="80vh">
